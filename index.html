@@ -9,6 +9,7 @@
     <a-scene>
       <a-assets>
         <img id="spaceThumbnail" src="img/Space.jpg">
+        <img id="frame" src="img/frame.png">
       </a-assets>
 
       <a-entity id="camera" camera look-controls wasd-controls position="0 0 30">
@@ -23,6 +24,8 @@
               material="opacity:0.0; color:red"
               >
      </a-text>
+
+     <a-plane src="#frame"></a-plane>
 
     </a-scene>
   </body>
