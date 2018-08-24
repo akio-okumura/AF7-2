@@ -18,6 +18,8 @@ tb.addEventListener('click', function () {
 
             break;
 
+    case 3: jump();
+            break;
     default:  break;
 
 
@@ -25,3 +27,8 @@ tb.addEventListener('click', function () {
 
 
 });
+
+function jump(){
+    // お問い合わせにジャンプする
+    location.href = "ot.html";
+}
