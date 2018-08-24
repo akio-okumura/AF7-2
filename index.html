@@ -27,7 +27,7 @@
 
      <a-plane id="textboard" color="#0000ff" opacity="0.3" width="3" height="4" position="0 0 -3"></a-plane>
 
-    <a-entity>
+    <a-entity id="page1" visible="true">
       <a-text value="What is VR?" font="https://cdn.aframe.io/fonts/DejaVu-sdf.fnt" negate="false" scale="1.5 1.5 1" position="0 1.5 -3.0" align="center">
       </a-text>
 
@@ -37,6 +37,18 @@
       <a-image src="img/playstationvr-top-banner01-20171002.png" position="-.33 -.44 -2.75" scale="2 1 1"></a-image>
     </a-entity>
 
+    <a-entity id="page2" visible="false">
+      <a-text value="The future of VR." font="https://cdn.aframe.io/fonts/DejaVu-sdf.fnt" negate="false" scale="1.5 1.5 1" position="0 1.5 -3.0" align="center">
+      </a-text>
+
+      <a-text value="\n2ページ" font="font/ipaexg-msdf.json" negate="false" scale=".75 .75 1" position="-1.25 1.0 -3.0" align="left">
+      </a-text>
+
+      <a-image src="img/v_future.png" position="-.33 -.44 -2.75" scale="2 1 1"></a-image>
+    </a-entity>
+
     </a-scene>
+
+    <script type="text/javascript" src="Bscene.js"></script>
   </body>
 </html>
